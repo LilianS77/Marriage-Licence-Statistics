@@ -1,6 +1,6 @@
 #### Preamble ####
 # Purpose: Downloads and saves the data from [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
+# Author: Xizi Sun
 # Date: 11 February 2023 [...UPDATE THIS...]
 # Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
 # License: MIT
