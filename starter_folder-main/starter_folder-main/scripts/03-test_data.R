@@ -11,8 +11,11 @@
 #### Workspace setup ####
 library(tidyverse)
 # [...UPDATE THIS...]
-
 #### Test data ####
-data <- read_csv("data/raw_data/simulator.csv")
+data <- read_csv("data/raw_data/simulated.csv")
 
-data
+# Test for negative numbers
+data$number_of_marriage |> min() <= 0
+
+# Test for NAs
+all(is.na(data$number_of_marriage))

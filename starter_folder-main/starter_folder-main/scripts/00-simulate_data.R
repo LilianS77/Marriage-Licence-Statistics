@@ -19,10 +19,17 @@ start_date<- as.Date("2018-01-01")
 number_of_dates <- 100
 
 # [...ADD CODE HERE...]
-date<-
+data <-
   tibble(
-    date = as.Date,
-    number_of_marriage = rpois(n=100,lamba=15)
+    dates = as.Date(
+      runif(
+        n = number_of_dates,
+        min = as.numeric(start_date),
+        max = as.numeric(end_date)
+      ),
+      origin = "1970-01-01"
+    ),
+    number_of_marriage = rpois(n = number_of_dates, lambda = 15)
   )
   
 
